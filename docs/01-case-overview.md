@@ -46,4 +46,4 @@ Capturing memory first preserves this transient evidence for post-mortem analysi
 
 ## Legal & ethical framing
 
-All activity was performed on author-owned hardware for CHFI skills development. Sensitive values in all exhibits are redacted; malicious indicators are defanged. See the [Disclaimer](../README.md#-disclaimer).
+All activity was performed on author-owned hardware for digital-forensics skills development. Sensitive values in all exhibits are redacted; malicious indicators are defanged. See the [Disclaimer](../README.md#-disclaimer).

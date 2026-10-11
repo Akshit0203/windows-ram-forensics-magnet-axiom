@@ -3,12 +3,11 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011%20x64-0078D6?logo=windows11&logoColor=white)
 ![Discipline](https://img.shields.io/badge/Discipline-DFIR%20%7C%20Memory%20Forensics-red)
 ![Tools](https://img.shields.io/badge/Tools-Magnet%20RAM%20Capture%20%7C%20AXIOM-00AEEF)
-![Alignment](https://img.shields.io/badge/Aligned%20with-EC--Council%20CHFI-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > A documented, end-to-end **live RAM (volatile memory) forensic investigation** on a Windows 11 x64 host — from memory acquisition with **Magnet RAM Capture**, through processing in **Magnet AXIOM Process**, to artifact analysis in **Magnet AXIOM Examine**. The exercise reconstructs user web activity, cloud and geolocation traces, recovered media, and in-memory indicators of compromise (IoCs) from a single `.raw` memory image.
 
-This repository is a **forensic lab write-up / portfolio project** produced as part of **EC-Council CHFI (Computer Hacking Forensic Investigator)** preparation. It is intended for **educational and defensive security** purposes only.
+This repository is a **forensic lab write-up / portfolio project** documenting a hands-on digital-forensics exercise. It is intended for **educational and defensive security** purposes only.
 
 <p align="center">
   <img src="assets/screenshots/19-case-dashboard-overview.png" alt="Magnet AXIOM Examine case dashboard showing 7,722 recovered artifacts" width="90%">
@@ -29,7 +28,7 @@ This repository is a **forensic lab write-up / portfolio project** produced as p
 - [Indicators of Compromise (IoCs)](#-indicators-of-compromise-iocs)
 - [Repository Structure](#-repository-structure)
 - [Documentation Index](#-documentation-index)
-- [CHFI Domain Mapping](#-chfi-domain-mapping)
+- [Domain Mapping](#-domain-mapping)
 - [Disclaimer](#-disclaimer)
 - [License](#-license)
 
@@ -49,7 +48,7 @@ In this exercise a **~19 GB live memory image** was acquired from an active Wind
 - Process a raw memory image at **sector level** using an industry-standard DFIR suite.
 - **Reconstruct user activity** (web, cloud, geolocation, social, media) purely from RAM.
 - **Identify in-memory IoCs** — malware / phishing / redirect URLs with no disk footprint.
-- Produce **repeatable, documented methodology** aligned with CHFI investigative domains.
+- Produce **repeatable, documented methodology** aligned with core digital-forensics investigative domains.
 
 ---
 
@@ -258,7 +257,7 @@ Two suspicious URLs were recovered from memory and classified by AXIOM as **Malw
 
 ## ⚖️ Disclaimer
 
-This project was conducted on a **system owned and controlled by the author**, in a **controlled lab environment**, for **educational and professional-development purposes** (CHFI preparation). All personally identifiable and sensitive data in the screenshots has been **redacted**. Malicious indicators are **defanged**.
+This project was conducted on a **system owned and controlled by the author**, in a **controlled lab environment**, for **educational and professional-development purposes**. All personally identifiable and sensitive data in the screenshots has been **redacted**. Malicious indicators are **defanged**.
 
 Nothing in this repository should be used to access systems or data without explicit authorization. The author accepts no liability for misuse.
 

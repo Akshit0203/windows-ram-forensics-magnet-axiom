@@ -10,7 +10,7 @@
 | **Acquisition date** | 25-May-2025 |
 | **Analysis date** | 25-May-2025 |
 | **Tools** | Magnet RAM Capture v1.2.0; Magnet AXIOM Process/Examine v5.4.0.26185 |
-| **Classification** | Educational / Lab (CHFI preparation) |
+| **Classification** | Educational / Lab exercise |
 
 ---
 
@@ -20,7 +20,7 @@ A live memory image (~18.75 GB) was acquired from an active Windows 11 x64 works
 
 ## 2. Objective
 
-Preserve and analyze volatile memory from a live host to reconstruct user activity and identify in-memory indicators of compromise, following a repeatable, CHFI-aligned methodology.
+Preserve and analyze volatile memory from a live host to reconstruct user activity and identify in-memory indicators of compromise, following a repeatable, standards-aligned methodology.
 
 ## 3. Evidence summary
 
@@ -103,4 +103,4 @@ All 27 evidence screenshots are in [`/assets/screenshots`](../assets/screenshots
 
 ---
 
-*Prepared for educational/CHFI purposes. Sensitive data redacted; malicious indicators defanged.*
+*Prepared for educational purposes. Sensitive data redacted; malicious indicators defanged.*
