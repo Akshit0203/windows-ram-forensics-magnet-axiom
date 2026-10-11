@@ -1,0 +1,47 @@
+# ==========================================================
+# Forensic evidence & large binaries — NEVER commit these
+# ==========================================================
+# Raw / acquired memory and disk images
+*.raw
+*.mem
+*.dmp
+*.vmem
+*.bin
+*.img
+*.e01
+*.ex01
+*.aff
+*.aff4
+*.lime
+
+# Magnet AXIOM case data & exports
+*.mfdb
+*.case
+AXIOM*/
+magnet axiom process/
+forensic ram capture/
+Case*.mfdb
+*.hash
+
+# ==========================================================
+# OS / editor cruft
+# ==========================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+*~
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# ==========================================================
+# Archives / misc
+# ==========================================================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
